@@ -1,6 +1,8 @@
 package com.example.diceroller;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -10,6 +12,7 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
     private ImageView imageViewDice;
     private Random rng = new Random();
+    MediaPlayer blee =  new MediaPlayer();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,14 +26,25 @@ public class MainActivity extends AppCompatActivity {
                 rollDice();
             }
         });
+        blee = MediaPlayer.create(this, R.raw.shake);
+
     }
 
     private void rollDice() {
+        if (blee.isPlaying()) {
+            blee.stop();
+            blee.release();
+        }
+        blee = MediaPlayer.create(this, R.raw.shake);
+        blee.start();
+
         int randomNumber = rng.nextInt(20) + 1;
 
         switch (randomNumber) {
             case 1:
                 imageViewDice.setImageResource(R.drawable.dice1);
+                blee = MediaPlayer.create(this, R.raw.fail);
+                blee.start();
                 break;
             case 2:
                 imageViewDice.setImageResource(R.drawable.dice2);
@@ -88,6 +102,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 20:
                 imageViewDice.setImageResource(R.drawable.d20);
+                blee = MediaPlayer.create(this, R.raw.crit);
+                blee.start();
                 break;
         }
     }

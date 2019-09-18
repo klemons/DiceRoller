@@ -3,7 +3,9 @@ package com.example.diceroller;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class SplashActivity extends MainActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
