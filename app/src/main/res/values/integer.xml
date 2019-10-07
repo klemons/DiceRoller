@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="roll_1">0</integer>
+    <integer name="roll_2">0</integer>
+    <integer name="roll_3">0</integer>
+    <integer name="roll_4">0</integer>
+    <integer name="roll_5">0</integer>
+    <integer name="roll_6">0</integer>
+    <integer name="roll_7">0</integer>
+    <integer name="roll_8">0</integer>
+    <integer name="roll_9">0</integer>
+    <integer name="roll_10">0</integer>
+    <integer name="roll_11">0</integer>
+    <integer name="roll_12">0</integer>
+    <integer name="roll_13">0</integer>
+    <integer name="roll_14">0</integer>
+    <integer name="roll_15">0</integer>
+    <integer name="roll_16">0</integer>
+    <integer name="roll_17">0</integer>
+    <integer name="roll_18">0</integer>
+    <integer name="roll_19">0</integer>
+    <integer name="roll_20">0</integer>
+</resources>

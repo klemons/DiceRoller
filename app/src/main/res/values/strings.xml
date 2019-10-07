@@ -1,3 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DiceRoller</string>
+    <string name="roll_1">Rolled:</string>
+    <string name="roll_2">Rolled:</string>
+    <string name="roll_3">Rolled:</string>
+    <string name="roll_4">Rolled:</string>
+    <string name="roll_5">Rolled:</string>
+    <string name="roll_6">Rolled:</string>
+    <string name="roll_7">Rolled:</string>
+    <string name="roll_8">Rolled:</string>
+    <string name="roll_9">Rolled:</string>
+    <string name="roll_10">Rolled:</string>
+    <string name="roll_11">Rolled:</string>
+    <string name="roll_12">Rolled:</string>
+    <string name="roll_13">Rolled:</string>
+    <string name="roll_14">Rolled:</string>
+    <string name="roll_15">Rolled:</string>
+    <string name="roll_16">Rolled:</string>
+    <string name="roll_17">Rolled:</string>
+    <string name="roll_18">Rolled:</string>
+    <string name="roll_19">Rolled:</string>
+    <string name="roll_20">Rolled:</string>
 </resources>

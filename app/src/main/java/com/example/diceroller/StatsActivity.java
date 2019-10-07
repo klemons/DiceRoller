@@ -1,4 +1,5 @@
 package com.example.diceroller;
 
-public class StatsActivity {
+public class StatsActivity extends MainActivity {
+
 }
