@@ -89,36 +89,42 @@ public class MainActivity extends AppCompatActivity {
                 newRoll = rollCount1 + 1;
                 editor.putInt(getString(R.string.roll_1), newRoll);
                 editor.commit();
+                editor.clear();
                 break;
             case 2:
                 imageViewDice.setImageResource(R.drawable.dice2);
                 newRoll = rollCount2 + 1;
                 editor.putInt(getString(R.string.roll_2), newRoll);
                 editor.commit();
+                editor.clear();
                 break;
             case 3:
                 imageViewDice.setImageResource(R.drawable.d3);
                 newRoll = rollCount3 + 1;
                 editor.putInt(getString(R.string.roll_3), newRoll);
                 editor.commit();
+                editor.clear();
                 break;
             case 4:
                 imageViewDice.setImageResource(R.drawable.d4);
                 newRoll = rollCount4 + 1;
                 editor.putInt(getString(R.string.roll_4), newRoll);
                 editor.commit();
+                editor.clear();
                 break;
             case 5:
                 imageViewDice.setImageResource(R.drawable.d5);
                 newRoll = rollCount5 + 1;
                 editor.putInt(getString(R.string.roll_5), newRoll);
                 editor.commit();
+                editor.clear();
                 break;
             case 6:
                 imageViewDice.setImageResource(R.drawable.d6);
                 newRoll = rollCount6 + 1;
                 editor.putInt(getString(R.string.roll_6), newRoll);
                 editor.commit();
+                editor.clear();
                 break;
             case 7:
                 imageViewDice.setImageResource(R.drawable.d7);

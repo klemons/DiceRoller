@@ -24,7 +24,7 @@ public class StatsActivity extends MainActivity {
                 SharedPreferences sharedPref = StatsActivity.this.getSharedPreferences(MY_PREFS_NAME, Context.MODE_PRIVATE);
 
 
-                for (int i = 1; i < 21; i++) {
+                for (int i = 1; i <= 20; i++) {
                     switch (i) {
                         case 1:
                             rolledInfo = sharedPref.getInt(getString(R.string.roll_1), 0);
